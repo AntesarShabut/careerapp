@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="../static/css/career-likelyhood.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Neue Haas Grotesk Display Pro:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="test-8">
+        <div class="how-likely-are-container">
+            <div class="how-likely-are-you-to-pursue-a">
+                <p>4. How likely are you to pursue a career in the tech industry?</p>
+            </div>
+        </div>
+        <div class="select-the-closest">Select the closest emoji to how you feel about this question</div>
+        <div class="arrow-left-parent">
+            <a href ="{{ url_for('familiar_roles') }}" class="arrow-left-wrapper">
+                <img class="arrow-left-icon" alt="" src="../static/images/Arrow-left.svg" id="arrowLeftIcon">
+            </a>
+              
+              <div class="div">
+                    <span>4/5</span>
+              </div>
+            <a href="{{ url_for('skills_assessment') }}" class="arrow-left-wrapper">
+                <img class="arrow-left-icon" alt="" src="../static/images/Arrow-right.svg" id="arrowRightIcon">
+            </a>
+            
+        </div>
+        <div class="frame-parent">
+            <div class="selector-parent">
+                <form>
+                    <div class="selector">
+                        <div class="thumbs-up-parent">
+                            <img class="thumbs-up-icon" alt="" src="../static/images/thumbsUp.svg">
+                            
+                            <div class="div">Very likely</div>
+                        </div>
+                        <input type="checkbox" class="selector-child" name="option" value="option1" id="option1">
+                        
+                    </div>
+                    <div class="selector">
+                        <div class="thumbs-up-parent">
+                                <img class="thumbs-up-icon" alt="" src="../static/images/notSure.svg">
+                                
+                                <div class="div">Neutral</div>
+                        </div>
+                        <input type="checkbox" class="selector-child" name="option" value="option2" id="option2">
+                        
+                    </div>
+                    <div class="selector">
+                        <div class="thumbs-up-parent">
+                                <img class="thumbs-up-icon" alt="" src="../static/images/thumbsDown.svg">
+                                
+                                <div class="div">Not likely</div>
+                        </div>
+                        <input type="checkbox" class="selector-child" name="option" value="option3" id="option3">
+                        
+                    </div>
+                </form>
+                    
+            </div>
+            <div class="frame-group">
+                <a href="{{ url_for('skills_assessment') }}" class="save-and-continue-wrapper div" id="frameContainer">Save and continue</a>
+                <a href="{{ url_for('familiar_roles') }}" class="back-wrapper div">Back</a>
+            </div>
+        </div>
+        <a class="leedstrinityacuk" href="https://www.leedstrinity.ac.uk/">
+            leedstrinity.ac.uk
+        </a>
+        <a href="{{ url_for('home') }}">
+            <img class="home-icon" alt="" src="../static/images/Home.svg">
+        </a>
+        <div class="test-8-inner">
+            <div class="pills-parent">
+                <div class="pills">
+                    <div class="wrapper">
+                          <div class="div235">1</div>
+                    </div>
+                  <div class="interest-in-tech1">Interest in tech roles</div>
+              </div>
+              <div class="vector-wrapper">
+                    <img class="frame-child" alt="" src="Vector 1.svg">
+                    
+              </div>
+              <div class="pills1">
+                    <div class="container">
+                          <div class="div235">2</div>
+                    </div>
+                    <a href="{{ url_for('skills_assessment') }}" class="interest-in-tech">Soft skills assessments</a>
+              </div>
+            </div>
+        </div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var arrowLeftIcon = document.getElementById("arrowLeftIcon");
+    		if(arrowLeftIcon) {
+      			arrowLeftIcon.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var arrowRightIcon = document.getElementById("arrowRightIcon");
+    		if(arrowRightIcon) {
+      			arrowRightIcon.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var frameContainer = document.getElementById("frameContainer");
+    		if(frameContainer) {
+      			frameContainer.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    </script>
+    <script>
+		function enforceSingleCheckbox() {
+            	const checkboxes = document.querySelectorAll('input[name="option"]');
+            	checkboxes.forEach(checkbox => {
+                	checkbox.addEventListener('change', () => {
+                    	if (checkbox.checked) {
+                        	checkboxes.forEach(cb => {
+                            	if (cb !== checkbox) cb.checked = false;
+                        	});
+                    	}
+                	});
+            	});
+        }
+
+        document.addEventListener('DOMContentLoaded', enforceSingleCheckbox);
+	</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="../static/css/details.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Neue Haas Grotesk Display Pro:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+    <div class="test-2">
+        <div class="enter-your-full-container">
+            <ol class="enter-your-full-name-and-email">
+                    <li>Enter your Full name and email address</li>
+            </ol>
+        </div>
+        <div class="this-is-to">This is to enable us send you a copy of your results</div>
+        <div class="arrow-left-parent">
+            <div class="arrow-left-wrapper">
+                <img class="arrow-left-icon" alt="" src="../static/images/Arrow-left.svg" id="arrowLeftIcon">
+            </div>
+              
+              <div class="div">
+                    <span>1/5</span>
+              </div>
+            <a href="{{ url_for('familiarity') }}" class="arrow-left-wrapper">
+                <img class="arrow-left-icon" alt="" src="../static/images/Arrow-right.svg" id="arrowRightIcon">
+            </a>
+            
+        </div>
+        <div class="frame-parent">
+            <div class="frame-group">
+                    <div class="frame-container">
+                        <div class="enter-full-name-optional-wrapper" id="frameContainer">
+                            <div class="div">
+                                <input type="text" placeholder="Enter full name (optional)" class="enter-full-name-optional-wrapper" id="name">
+                            </div>
+                        </div>
+                        <div class="enter-email-address-optional-wrapper">
+                            <div class="div">
+                                <input type="email" placeholder="Enter email address (optional)" class="enter-email-address-optional-wrapper" id="email">
+                            </div>
+                        </div>
+                    </div>
+                
+                        <form action="{{ url_for('familiarity') }}" method="get" onsubmit="return validateForm()">
+                            <div class="pills">
+                                <input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs" id="termsCheckbox">
+                                <div class="div">
+                                    <p class="by-clicking-this">By clicking this, you confirm that you have read and agree to our GDPR-compliant Privacy Policy </p>
+                                </div>
+                            </div>
+                            <div class="frame-div">
+                                <button type="submit" class="save-and-continue-wrapper div">Save and continue</button>
+                                <a href="{{ url_for('home') }}" class="back-wrapper div">Back</a>
+                            </div>
+                        </form>
+                
+                        
+                        
+                
+            </div>
+        </div>
+        <a class="leedstrinityacuk" href="https://www.leedstrinity.ac.uk/">
+            leedstrinity.ac.uk
+        </a>
+        <a href="{{ url_for('home') }}">
+            <img class="home-icon" alt="" src="../static/images/Home.svg">
+        </a>
+        <div class="test-2-inner">
+            <div class="pills-parent">
+                    <div class="pills1">
+                        <div class="wrapper">
+                                <div class="div1">1</div>
+                        </div>
+                        <a href="{{ url_for('familiarity') }}" class="interest-in-tech1">Interest in tech roles</a>
+                    </div>
+                    <div class="vector-wrapper">
+                        <img class="frame-child" alt="" src="Vector 1.svg">
+                        
+                    </div>
+                    <div class="pills2">
+                        <div class="container">
+                                <div class="div1">2</div>
+                        </div>
+                        <a class="interest-in-tech" href="{{ url_for('skills_assessment') }}">
+                            Soft skills assessments
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../static/js/script1.js">
+    </script>
+    <script>
+        function validateForm() {
+            const checkbox = document.getElementById('termsCheckbox');
+            if (!checkbox.checked) {
+                alert("You must agree to the terms and conditions to proceed.");
+                return false; // Prevent form submission
+            }
+            return true; // Allow form submission
+        }
+    </script>
+</body>
+</html>

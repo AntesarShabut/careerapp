@@ -1,0 +1,407 @@
+.here-are-your {
+    position: absolute;
+    top: 256px;
+    left: calc(50% - 170px);
+}
+.refresh-cw-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div {
+    position: relative;
+}
+.refresh-cw-parent {
+    position: absolute;
+    top: 18px;
+    right: 145px;
+    border-radius: 10px;
+    background-color: #4c0221;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 16px;
+    gap: 6px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+.arrow-drop-down-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.relevance-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.sort-by-parent {
+    position: absolute;
+    top: 256px;
+    left: 980px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    text-align: right;
+}
+.credit-card-icon {
+    width: 14px;
+    position: relative;
+    height: 14px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: right;
+    font-size: 10px;
+    color: #999;
+}
+.entry-level-ux-analyst-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame-child {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.your-role-as {
+    align-self: stretch;
+    position: relative;
+}
+.communication-wrapper {
+    border-radius: 20px;
+    background-color: #eaddff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+}
+.frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.other-skills-you-need-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #000;
+}
+.your-role-as-a-ux-researcher-w-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+    font-size: 10px;
+    color: #79747e;
+}
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.wrapper {
+    border-radius: 10px;
+    background-color: #49efcc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+}
+.instance-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 14px;
+    color: #4c0221;
+}
+.frame-parent {
+    align-self: stretch;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 14px 16px;
+    gap: 24px;
+}
+.instance-parent {
+    position: absolute;
+    top: 294px;
+    left: 459px;
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+.leedstrinityacuk {
+    position: absolute;
+    top: 63px;
+    left: calc(50% + 398px);
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+}
+.search-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.search-parent {
+    position: absolute;
+    top: 170px;
+    left: 459px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 16px;
+    gap: 7px;
+    color: #999;
+}
+.home-icon {
+    position: absolute;
+    top: 50px;
+    left: 203px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.bg {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #32a6f9;
+    height: 4px;
+    opacity: 0.2;
+    z-index: 0;
+}
+.fill-icon {
+    width: 162px;
+    position: relative;
+    border-radius: 100px;
+    height: 4px;
+    z-index: 1;
+}
+.k {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 2.5px);
+}
+.div9 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+    text-align: left;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+.div11 {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 1.5px);
+    display: none;
+}
+.div10 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    display: none;
+    opacity: 0.2;
+}
+.div15 {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 2.5px);
+    display: none;
+}
+.div14 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.2;
+}
+.div20 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+}
+.k1 {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 16.5px);
+}
+.div26 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+    text-align: right;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+.steps {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+    left: 0px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 2;
+}
+.slider {
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 100px 24px 0px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 8px;
+    text-align: center;
+    font-size: 8px;
+    color: #000;
+    font-family: Inter;
+}
+.filter-by-salary-parent {
+    position: absolute;
+    top: 86px;
+    left: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.check-box-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.pills {
+    align-self: stretch;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.pills5 {
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.pills-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.showing-jobs-in-parent {
+    position: absolute;
+    top: 182px;
+    left: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.frame-parent17 {
+    position: absolute;
+    top: 170px;
+    left: 118px;
+    border-radius: 10px;
+    background-color: #f2eeed;
+    border: 1px solid #ebedf0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 670px;
+    overflow: hidden;
+}
+.test-13 {
+    width: 100%;
+    position: relative;
+    background-color: #f7f4ef;
+    height: 1324px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #0e2032;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+

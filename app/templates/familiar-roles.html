@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="../static/css/familiar-roles.css"/>
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Neue Haas Grotesk Display Pro:wght@400&display=swap" />
+  	
+</head>
+<body>
+  	
+  	<div class="test-6">
+		<div class="which-of-the-container">
+			<div class="which-of-the-following-tech-ro">
+				<p>3. Which of the following tech roles are you familiar with?</p>
+			</div>
+		</div>
+		<div class="select-the-closest">Select all roles you have know of</div>
+		<div class="you-can-select">You can select as many as possible</div>
+		<div class="arrow-left-parent">
+            <a href="{{ url_for('familiarity') }}" class="arrow-left-wrapper">
+                <img class="arrow-left-icon" alt="" src="../static/images/Arrow-left.svg" id="arrowLeftIcon">
+			</a>
+            <div class="div">
+                <span>3/5</span>
+			</div>
+        	<a href="{{ url_for('career_likelyhood') }}" class="arrow-left-wrapper">
+            	<img class="arrow-left-icon" alt="" src="../static/images/Arrow-right.svg" id="arrowRightIcon">
+        	</a>
+            
+        </div>
+		<div class="frame-parent">
+			<div class="selector-parent">
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+								<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">Software Developer</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+								<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">Data Scientist</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+							<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">Product Manager</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+							<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">Cybersecurity Analyst</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+							<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">UX/UI Designer</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+							<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">DevOps Engineer</div>
+						</div>
+					</div>
+					<div class="selector">
+						<div class="check-box-outline-blank-parent">
+							<input type="checkbox" class="check-box-outline-blank-icon" name="tsandcs" value="tsandcs">
+								
+								<div class="div">AI/ML Engineer</div>
+						</div>
+					</div>
+					<div class="other-enter-role-title-wrapper">
+						<input type="text" class="other-enter-role-title" placeholder="Other, enter role title"></input>
+					</div>
+			</div>
+			<div class="frame-group">
+				<a href="{{ url_for('career_likelyhood') }}" class="save-and-continue-wrapper div" id="frameContainer">Save and continue</a>
+				<a href="{{ url_for('familiarity') }}" class="back-wrapper div">Back</a>
+			</div>
+		</div>
+		<a class="leedstrinityacuk" href="https://www.leedstrinity.ac.uk/">
+            leedstrinity.ac.uk
+        </a>
+		<a href="{{ url_for('home') }}">
+			<img class="home-icon" alt="" src="../static/images/Home.svg">
+		</a>
+		<div class="test-6-inner">
+			<div class="pills-parent">
+					<div class="pills">
+						<div class="wrapper">
+								<div class="div1">1</div>
+						</div>
+						<div class="interest-in-tech1">Interest in tech roles</div>
+					</div>
+					<div class="vector-wrapper">
+						<img class="frame-child" alt="" src="Vector 1.svg">
+						
+					</div>
+					<div class="pills1">
+						<div class="container">
+								<div class="div1">2</div>
+						</div>
+						<a class="interest-in-tech" href="{{ url_for('skills_assessment') }}">
+                            Soft skills assessments
+                        </a>
+					</div>
+			</div>
+		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var arrowLeftIcon = document.getElementById("arrowLeftIcon");
+    		if(arrowLeftIcon) {
+      			arrowLeftIcon.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var arrowRightIcon = document.getElementById("arrowRightIcon");
+    		if(arrowRightIcon) {
+      			arrowRightIcon.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var frameContainer = document.getElementById("frameContainer");
+    		if(frameContainer) {
+      			frameContainer.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    </script>
+</body>
+</html>

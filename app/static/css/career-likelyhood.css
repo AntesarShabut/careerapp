@@ -1,0 +1,240 @@
+.how-likely-are-you-to-pursue-a {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 140px;
+}
+.how-likely-are-container {
+    position: absolute;
+    top: 180px;
+    left: calc(50% - 310px);
+    font-size: 32px;
+    text-align: left;
+}
+.select-the-closest {
+    position: absolute;
+    top: 178px;
+    left: calc(50% - 170px);
+}
+.arrow-left-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.div {
+    position: relative;
+}
+.arrow-left-parent {
+    position: absolute;
+    top: 170px;
+    right: 119px;
+    border-radius: 10px;
+    background-color: #ebedf0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 6px;
+}
+.thumbs-up-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.thumbs-up-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.selector-child {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.selector {
+    width: 408px;
+    border-radius: 8px;
+    border: 1px solid #d1d1d6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 25px;
+}
+.selector-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22px;
+}
+.save-and-continue-wrapper {
+    border-radius: 8px;
+    background-color: #49efcc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none !important;
+}
+.back-wrapper {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #000000;
+    text-decoration: none !important;
+}
+.frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.frame-parent {
+    position: absolute;
+    top: 320px;
+    left: 459px;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 69px;
+    font-size: 16px;
+}
+.leedstrinityacuk {
+    position: absolute;
+    top: 63px;
+    left: calc(50% + 398px);
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #000;
+}
+.home-icon {
+    position: absolute;
+    top: 50px;
+    left: 203px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.div1 {
+    align-self: stretch;
+    position: relative;
+}
+.wrapper {
+    border-radius: 100px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8.5px;
+}
+.interest-in-tech {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #000;
+}
+.interest-in-tech1 {
+    text-decoration: none !important;
+}
+.pills {
+    align-self: stretch;
+    border-radius: 50px;
+    background-color: #4c0221;
+    border: 1px solid #4c0221;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 16px;
+    gap: 10px;
+    color: #fff;
+}
+.frame-child {
+    width: 0px;
+    position: relative;
+    height: 40px;
+    object-fit: contain;
+}
+.vector-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+}
+.container {
+    border-radius: 100px;
+    border: 1px solid #0e2032;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 7.5px;
+}
+.pills1 {
+    border-radius: 50px;
+    border: 1px solid #0e2032;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    gap: 10px;
+}
+.pills-parent {
+    position: absolute;
+    top: 53px;
+    left: calc(50% - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.test-8-inner {
+    position: absolute;
+    top: 170px;
+    left: 118px;
+    border-radius: 10px;
+    background-color: #f2eeed;
+    border: 1px solid #ebedf0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 546px;
+    overflow: hidden;
+}
+.test-8 {
+    width: 100%;
+    position: relative;
+    background-color: #f7f4ef;
+    height: 913px;
+    overflow: hidden;
+    text-align: center;
+    color: #0e2032;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+

@@ -1,0 +1,377 @@
+.which-of-the-following-best-de {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 140px;
+}
+.which-of-the-container {
+    position: absolute;
+    top: 180px;
+    left: calc(50% - 308px);
+    font-size: 32px;
+}
+.use-the-sliders {
+    position: absolute;
+    top: 178px;
+    left: calc(50% - 170px);
+}
+.arrow-left-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.div {
+    position: relative;
+}
+.arrow-right-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.arrow-left-parent {
+    position: absolute;
+    top: 170px;
+    right: 119px;
+    border-radius: 10px;
+    background-color: #ebedf0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 6px;
+    text-align: center;
+}
+.bg {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #32a6f9;
+    height: 4px;
+    opacity: 0.2;
+    z-index: 0;
+}
+.fill-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: 100px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 4px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.not-really-like {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 2.5px);
+    width: 40px;
+}
+.div1 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+    text-align: left;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+.div3 {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 1.5px);
+    display: none;
+}
+.div2 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    display: none;
+    opacity: 0.2;
+}
+.div7 {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 2.5px);
+    display: none;
+}
+.div6 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.2;
+}
+.somewhat-like-me {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 29.5px);
+}
+.div12 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+.very-much-like {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 54.5px);
+}
+.div18 {
+    width: 1px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #000;
+    height: 4px;
+    opacity: 0.4;
+    text-align: right;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+.steps {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+    left: 0px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 2;
+}
+.slider {
+    width: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 100px 24px 0px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 8px;
+    text-align: center;
+    font-size: 8px;
+    color: #000;
+    font-family: Inter;
+}
+.i-love-learning-new-things-parent {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 14px 16px;
+    gap: 10px;
+    cursor: pointer;
+}
+.i-am-usually-enthusiastic-and-parent {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 14px 16px;
+    gap: 10px;
+}
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.suggest-tech-roles-wrapper {
+    border-radius: 8px;
+    background-color: #49efcc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #000000;
+    text-decoration: none !important;
+}
+.back-wrapper {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #000000;
+    text-decoration: none !important;
+}
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+    text-align: center;
+}
+.frame-parent {
+    position: absolute;
+    top: 294px;
+    left: 459px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 69px;
+    font-size: 16px;
+}
+.leedstrinityacuk {
+    position: absolute;
+    top: 63px;
+    left: calc(50% + 398px);
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #000;
+}
+.home-icon {
+    position: absolute;
+    top: 50px;
+    left: 203px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.div235 {
+    align-self: stretch;
+    position: relative;
+}
+.wrapper {
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8.5px;
+}
+.interest-in-tech {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+}
+.pills {
+    align-self: stretch;
+    border-radius: 50px;
+    background-color: #4c0221;
+    border: 1px solid #4c0221;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 16px;
+    gap: 10px;
+}
+.frame-child {
+    width: 0px;
+    position: relative;
+    height: 40px;
+    object-fit: contain;
+}
+.vector-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+}
+.container {
+    border-radius: 100px;
+    border: 1px solid #0e2032;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 7.5px;
+}
+.interest-in-tech1 {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #000;
+}
+.pills1 {
+    border-radius: 50px;
+    border: 1px solid #0e2032;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    gap: 10px;
+    color: #0e2032;
+}
+.pills-parent {
+    position: absolute;
+    top: 53px;
+    left: calc(50% - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.test-10-inner {
+    position: absolute;
+    top: 170px;
+    left: 118px;
+    border-radius: 10px;
+    background-color: #f2eeed;
+    border: 1px solid #ebedf0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 546px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    color: #4c0221;
+}
+.test-10 {
+    width: 100%;
+    position: relative;
+    background-color: #f7f4ef;
+    height: 2100px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #0e2032;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+
+.RangeSlider {
+    padding: 25px;
+    background-color: white;
+    width: 414px;
+    height: 82px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
